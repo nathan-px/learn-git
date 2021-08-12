@@ -22,7 +22,10 @@ checkout a new branch
 git checkout -b
 ```
 
-make changes
+make changes:
+
+* add a new file to the repo
+* modify an existing file
 
 push changes to origin
 
@@ -67,7 +70,7 @@ git pull --rebase upstream 1.0
 cherry-pick the change
 
 ```
-git cherry-pick <paste>
+git cherry-pick <paste-commit-hash>
 ```
 
 compare your local branch with the upstream version branch to ensure you're only pushing the change you intend
@@ -82,4 +85,4 @@ push the change upstream
 git push upstream 1.0
 ```
 
-ensure it builds without errors
+ensure it builds without errors (not a part of this exercise)
